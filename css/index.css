@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+.banner604{
+    position:relative;
+
+
+}
+/*.banner604 a{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:500px;
+    background:url(../image/banner1.jpg) no-repeat top center;
+
+}*/
+.main{
+
+    position:relative;
+}
+/*轮播图*/
+.slider{
+    width:730px;
+    height:453px;
+    background-color:pink;
+    margin: 12px 0 0 220px;
+    float:left;
+    position:relative;
+
+}
+.slider img{
+    width:730px;
+    height:453px;
+}
+/*li*/
+.circle{
+    position:absolute;
+    bottom:8px;
+    left:50%;
+    margin_left:-100px;
+}
+.circle li{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background-color:#3E3E3E;
+    float:left;
+    text-align:center;
+    color:#fff;
+    line-height:18px;
+    margin:0 4px;
+    cursor:pointer;
+}
+.circle li.current{
+    background-color:red;
+}
+
+/*两个三角*/
+.arrow-l ,.arrow-r{
+    position:absolute;
+    width:28px;
+    height:62px;
+    top:50%;
+    margin-top:-31px;
+    color:#fff;
+    font:500 40px/62px "宋体";
+    text-align:center;
+    background:rgba(1,1,1,0.5);
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.arrow-l:hover,.arrow-r:hover{
+    background:rgba(1,1,1,0.4);
+    color:blue;
+
+}
+
+/*京东快报*/
+.news{
+    width:248px;
+    height:453px;
+    border:1px solid red;
+    float:right;
+    margin-top:12px;
+}
+.jd-news{
+    height:200px;
+    border-bottom:1px dashed #E8E8E7;
+}
+.jd-news .dt,.lifeservi .dt{
+    height:43px;
+    border-bottom:1px dotted #E8E8E7;
+    line-height:43px;
+}
+.jd-news .dt h3, .lifeservi .dt h3{
+    float:left;
+    font:14px/43px "microsoft yahei";
+    color:#666;
+    padding-left:15px;
+}
+.jd-news .dt a{
+    float:right;
+    font:13px/43px "宋体";
+    margin-right:15px;
+}
+.jd-news .dd ul{
+    padding:8px 0 0 15px;
+}
+.jd-news .dd li{
+    line-height:28px;
+}
+.jd-news .dd li span{
+    font-weight:700;
+    margin-right:5px;
+}
+.lifeservi{
+    height:251px;
+    width:248px;
+overflow:hidden;
+
+}
+.lifeservi ul{
+    width:252px;
+}
+.lifeservi .dd{
+    border-top:1px dotted #E7E7E8;
+    overflow:hidden;
+    height:251px;
+}
+.lifeservi .dd li{
+    width:62px;
+    height:70px;
+    border:1px solid #E4E4E4;
+    float:left;
+    margin:-1px 0 0 -1px;
+
+}
+
+.lifeservi li a{
+    display:block;
+    height:70px;
+    text-align:center;
+    padding-top:43px;
+    position:relative;
+}
+.lifeservi li a i{
+    position:absolute;
+    top:12px;
+    left:19px;
+    width:25px;
+    height:25px;
+    background:url(../image/手机.jpg) no-repeat right top;
+}
+lifeservi-icon2 a i{
+    position:absolute;
+    top:12px;
+    left:25px;
+    width:25px;
+    height:25px;
+    background:url(../image/机票.jpg) no-repeat right top;
+}
+
+.lifeservi .qiang{
+    background:url(../image/抢.jpg) no-repeat right top;
+}
+
+
+/*活动*/
+.todays{
+    position:relative;
+}
+.night{
+    margin:10px 0 28px 0;
+}
+.night img{
+    width:200px;
+    height:220px;
+}
+.night-r{
+    width:1000px;
+    height:160px;
+    background-color:pink;
+    float:right;
+}
+.night-r ul{
+    width:500%;
+}
+.night-r li{
+    float:left;
+    margin-right:5px;
+}
